@@ -1,2 +1,2 @@
-# Chat-GPT-Haedal
-해달 ChatGPT 만들기
+# ChatGPT
+해달 ChatGPT

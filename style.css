@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Merriweather", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
+body {
+    background-color: rgb(233, 203, 138);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 50px;
+}
+
+.header h3 {
+    font-size: 20px;
+    font-weight: 5000;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info a {
+    color: rgb(141, 123, 82);
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.info a:hover {
+    color:rgb(214, 150, 0);
+}
+
+.input-container{
+    background-color: rgb(141, 123, 82);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #5c5c6600;
+    position: sticky;
+    bottom: 0;
+}
+
+#user-input {
+    background-color: rgba(0, 0, 0, 0.256);
+    color: #000000;
+    border: none;
+    outline: none;
+    padding: 12px;
+    flex: 9;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#user-input::placeholder{
+    color: #000000;
+    font-weight: 400;
+}
+
+#send-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.256) ;
+    color: black;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+}    
+
+#send-button:hover{
+    background-color:rgb(0, 0, 0, 0.256);
+}
+
+.chat-container {
+    flex: 1;
+}
+
+.chat-box {
+    display:flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#chat-log {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#chat-log i {
+    margin-right: 10px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.bot, .user {
+    display: flex;
+    align-items: flex-start;
+    color: #000000;
+    width: 100%;
+    padding: 15px 7px 15px 10px;
+    border-radius: 6px;
+}
+
+.bot {
+    background-color: #ffff9472;
+}
+
+#chat-log #user-icon i {
+    background-color: #ffbf00;
+    padding: 10px 11px;
+}
+
+#chat-log #bot-icon i {
+    background-color: #ffff9472;
+    padding: 10px 11px;
+}
